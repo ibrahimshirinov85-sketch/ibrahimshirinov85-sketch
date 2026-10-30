@@ -1,89 +1,55 @@
+<p align="center">
+  <img src="banner.png" alt="Ibrahim Shirinov — Python Developer, LLM Automation & Document Processing" width="100%">
+</p>
 
-<div align="center">
+## 👋 Hi, I'm Ibrahim
 
-<img src="banner.png" width="100%" alt="Ibrahim Shirinov - Developer Banner" />
+I'm a Python developer from Baku who replaces manual, document-heavy work with **LLM, OCR and retrieval-based automation**.
+I like owning a problem end to end: finding the bottleneck, building the fix, deploying it, and explaining the trade-offs to people who aren't technical.
 
-# Ibrahim Shirinov
+- 🔭 Currently building LLM extraction and RAG tools for real documents
+- 🌍 Working across Azerbaijani, English, Arabic and Persian sources
+- 🎓 Middle Eastern Studies @ Baku State University (2027)
 
-### Python Developer | AI Automation | Software Engineering
+## 🚀 Featured projects
 
-*Building intelligent systems. Automating workflows. Solving real-world problems.*
+| Project | What it does | Result |
+|---|---|---|
+| **[AI Contract Renewal Tracker](https://github.com/ibrahimshirinov85-sketch/contract-tracker)** | FastAPI service that reads contract PDFs and extracts renewal date, notice period, auto-renewal, counterparty and value as validated JSON. Deployed on Render with a custom Zapier integration. | Live end-to-end Zap · LLM swapped from Gemini to Groq with no architecture change |
+| **[Azerbaijani RAG Q&A](https://github.com/ibrahimshirinov85-sketch/az-rag)** | Fully local question answering over Azerbaijani regulatory PDFs. Cites document, article and page, and refuses when the answer isn't in the sources. | **100% Hit Rate · 0.977 MRR** on a 22-question eval set |
+| **[GeoPDF-OCR-KML](https://github.com/ibrahimshirinov85-sketch/GeoPDF-OCR-KML)** | Flask app that OCRs monument PDFs and images, validates coordinates and batch-generates KML files for Google Earth. Built for a volunteer team at Government House, Baku. | Replaced **7+ min of manual entry per monument** with a batch process |
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github)](https://github.com/ibrahimshirinov85-sketch)
-[![Python](https://img.shields.io/badge/Python-Developer-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+## 🛠️ Tech stack
 
-</div>
-
----
-
-## About Me
-
-I'm a developer focused on Python, AI-powered applications, and intelligent automation.
-
-I enjoy building practical software that solves real-world problems, particularly in document processing, information retrieval, and business workflow automation.
-
-- Developing AI-powered applications and automation systems.
-- Exploring LLMs, RAG architectures, and semantic search.
-- Building document processing and OCR solutions.
-- Continuously improving my backend engineering skills.
-
----
-
-## Tech Stack
-
-**Languages & Backend**
-
+**Backend**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 
-**AI & Data**
+**LLM & Retrieval**
+![Groq](https://img.shields.io/badge/Groq_·_Llama_3.3-F55036?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-5A3FC0?style=flat-square)
+![BM25](https://img.shields.io/badge/BM25_+_bge--m3-334155?style=flat-square)
 
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-Database-blue?style=flat-square)
-![OCR](https://img.shields.io/badge/OCR-Tesseract-green?style=flat-square)
+**Document processing**
+![Tesseract](https://img.shields.io/badge/Tesseract_OCR-3B82F6?style=flat-square)
+![PyMuPDF](https://img.shields.io/badge/PyMuPDF-1E293B?style=flat-square)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-**Tools**
-
+**Deploy & tools**
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Zapier](https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 
----
+## 📫 Contact
 
-## Areas of Interest
+[![Email](https://img.shields.io/badge/Email-ibrahimshirinov85@icloud.com-0F172A?style=flat-square&logo=icloud&logoColor=white)](mailto:ibrahimshirinov85@icloud.com)
+<!-- LinkedIn: aşağıdakı sətrin əvvəlindəki və sonundakı şərh işarələrini sil və öz linkini yaz
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/SENIN-LINKIN)
+-->
 
-- AI & LLM Applications
-- Intelligent Document Processing
-- Retrieval-Augmented Generation (RAG)
-- Business Process Automation
-- Backend Engineering
-- Semantic & Hybrid Search
-
----
-
-## Current Focus
-
-Building practical AI applications, improving backend development skills, and exploring scalable automation solutions.
-
----
-
-## GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=ibrahimshirinov85-sketch&show_icons=true&theme=github_dark&hide_border=true" width="49%" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimshirinov85-sketch&layout=compact&theme=github_dark&hide_border=true" width="49%" />
-
-</div>
-
----
-
-<div align="center">
-
-### BUILD / AUTOMATE / IMPROVE
-
-*Always learning. Always building.*
-
-</div>
+Open to Python / LLM automation roles and freelance projects.
